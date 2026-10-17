@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verdikt</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="" type="image/x-icon">
+    <link rel="icon" href="Images/VerdiktIcon.png" type="image/png">
     <script src="Java.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search reviews, shows, or users..."  aria-label="Search reviews">
-        </div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="categories.html">Reviews</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-
-        <button id="theme-toggle" class="theme-btn">
-            <span id="theme-icon" aria-hidden="true">🌙</span>
-            <span id="theme-text">Dark Mode</span>
-        </button>
+      <div class="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search reviews, shows, or users..."
+          aria-label="Search reviews"
+        >
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="categories.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-btn" type="button">
+        <span id="theme-icon" aria-hidden="true">🌙</span>
+        <span id="theme-text">Dark Mode</span>
+      </button>
     </nav>
+
     <header>
-        <h1>About the Creator</h1>
-        <h3>The creator of Verdikt is a passionate individual who believes in the power of honest reviews. With a background in technology and a deep understanding of user needs, they set out to create a platform that delivers transparent and actionable feedback.</h3>
-        <h3>Favorite genre on this website is Anime</h3>
-        <h3>And their favorite show is Re:Zero</h3>
+      <h1>About the Creator</h1>
+      <p>
+        The creator of Verdikt is a passionate individual who believes in the power of honest reviews.
+        With a background in technology and a deep understanding of user needs, they set out to create
+        a platform that delivers transparent and actionable feedback.
+      </p>
+      <p>Favorite genre on this website is Anime</p>
+      <p>And their favorite show is Re:Zero</p>
+      <div>
         <img id="AboutImg" src="Images/ReZeroCast.webp" alt="Re:Zero" width="300">
+      </div>
     </header>
-</body>
+  </body>
 </html>
